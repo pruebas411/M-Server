@@ -49,11 +49,56 @@
       },
       "region": "global",
       "tunnel_type": "minecraft-java"
+    },
+    {
+      "active": true,
+      "alloc": {
+        "data": {
+          "assigned_domain": "men-deep.gl.at.ply.gg",
+          "assigned_srv": null,
+          "assignment": {
+            "type": "shared-ip"
+          },
+          "id": "95f03884-ebff-41e0-9b10-88c2d1128c5f",
+          "ip_hostname": "19.ip.gl.ply.gg",
+          "ip_type": "both",
+          "port_end": 4127,
+          "port_start": 4126,
+          "region": "global",
+          "static_ip4": "147.185.221.19",
+          "tunnel_ip": "2602:fbaf:0:1::13"
+        },
+        "status": "allocated"
+      },
+      "created_at": "2024-06-20T02:24:35.931563Z",
+      "disabled_reason": null,
+      "domain": null,
+      "expire_notice": null,
+      "firewall_id": null,
+      "id": "a8cad65c-6034-4f93-bf95-9fd23e980c1d",
+      "name": "unnamed",
+      "origin": {
+        "data": {
+          "agent_id": "e25356d3-f9ed-4559-99d8-e77f2112b9c8",
+          "agent_name": "from-key-d54a",
+          "local_ip": "127.0.0.1",
+          "local_port": 4126
+        },
+        "type": "agent"
+      },
+      "port_count": 1,
+      "port_type": "udp",
+      "ratelimit": {
+        "bytes_per_second": null,
+        "packets_per_second": null
+      },
+      "region": "global",
+      "tunnel_type": null
     }
   ],
   "udp_alloc": {
     "allowed": 6,
-    "claimed": 0,
-    "desired": 0
+    "claimed": 1,
+    "desired": 1
   }
 }
